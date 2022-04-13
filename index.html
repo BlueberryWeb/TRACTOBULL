@@ -4,9 +4,137 @@
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <script src="https://kit.fontawesome.com/4514d9060c.js" ></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/style.css"/>
     <title>TRACTOBULL</title>
 </head>
 <body>
+    <!--SIDE BAR-->
+        <div class="row">
+            <div class="col-12 col-lg-2 col-md-12-col-sm-12">
+                <div class="d-flex flex-column align-items-stretch flex-shrink-0 menu-lado" style="width: 280px;">
+                    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto  text-decoration-none pt-5 pb-4">
+                      <img src="img/logo-login.png" alt="TRACTOBULL" id="logo-side" class="img-fluid"/>
+                    </a>
+                    <ul class="nav nav-pills flex-column mb-auto">
+                      <li class="nav-item">
+                        <a href="#" class="nav-link active border-bottom pt-5 pb-3" aria-current="page">
+                          <img src="img/icono-home.png" alt="BIENVENIDO" class="img-fluid icono-side"/>
+                          BIENVENIDO
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="nav-link link-light border-bottom pt-3 pb-3">
+                          <img src="img/icono-administracion.png" alt="ADMINISTRACIÓN" class="img-fluid icono-side"/>
+                          ADMINISTRACIÓN
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="nav-link link-light border-bottom  pt-3 pb-3">
+                            <img src="img/icono-ventas.png" alt="VENTAS" class="img-fluid icono-side"/>
+                          VENTAS
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="nav-link link-light border-bottom  pt-3 pb-3">
+                            <img src="img/icono-RH.png" alt="RRHHH" class="img-fluid icono-side"/>
+                            RRHHH
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="nav-link link-light border-bottom  pt-3 pb-3">
+                            <img src="img/icono-calidad.png" alt="CALIDAD" class="img-fluid icono-side"/>
+                          CALIDAD
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="nav-link link-light border-bottom  pt-3 pb-3">
+                          <img src="img/icono-credito.png" alt="CRÉDITO Y COBRANZA" class="img-fluid icono-side"/>
+                            CRÉDITO Y <br> COBRANZA
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="nav-link link-light border-bottom  pt-3 pb-3">
+                          <img src="img/icono-finanzas.png" alt="FINANZAS" class="img-fluid icono-side"/>
+                          FINANZAS
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="nav-link link-light border-bottom  pt-3 pb-3 ">
+                            <img src="img/icono-operaciones.png" alt="OPERACIONES" class="img-fluid icono-side"/>
+                          OPERACIONES
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="nav-link link-light border-bottom  pt-3 pb-3">
+                            <img src="img/icono-almacen.png" alt="ALMACÉN" class="img-fluid icono-side"/>
+                          ALMACÉN
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="nav-link link-light border-bottom  pt-3 pb-3">
+                            <img src="img/icono-logistica.png" alt="LOGÍSTICA" class="img-fluid icono-side"/>
+                          LOGÍSTICA
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="nav-link link-light border-bottom  pt-3 pb-3">
+                            <img src="img/icono-produccion.png" alt="PRODUCCIÓN" class="img-fluid icono-side"/>
+                          PRODUCCIÓN
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="nav-link link-light   pt-3 pb-3">
+                            <img src="img/icono-cerrar-sesion.png" alt="CERRAR SESIÓN" class="img-fluid icono-side"/>
+                          CERRAR SESIÓN
+                        </a>
+                      </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-lg-10 col-md-12-col-sm-12 mensaje-bienvenida">
+                <div class="row fondo-bco pt-2 pb-2">
+                    <div class="text-end dropdown">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="img/icono-user.png" alt="USER" class="img-fluid icono-side"/>
+                                Bienvenido José Luis González
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </div>
+                    </div>
+                </div>
+                <div class="mensaje-bienvenida">
+                    <div class="container">
+                        <h1 class="pt-3 pb-5">BIENVENIDO</h1>
+                        <div class="row">
+                            <div class="col-12 col-lg-4 col-md-12 col-sm-12">
+                                <img src="img/logo-bienvenida.png" alt="BIENVENIDO A TRACTOBULL TRAINING PROGRAM" class="img-fluid logo-bienvenida pt-5"/>
+                                <p class="pt-5 texto-bienvenida text-center">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat obcaecati consequatur suscipit cupiditate ullam accusantium voluptate sint incidunt error mollitia porro, perspiciatis ut deleniti, natus corrupti nostrum aliquid culpa. Modi?"
+                                </p>
+                            </div>
+                            <div class="col-12 col-lg-8 col-md-12 col-sm-12">
+                                <img src="img/monita.png" alt="TRACTOBULL" id="fondo-bienvenida"/>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
     
+   
+    
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
