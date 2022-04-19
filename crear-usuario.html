@@ -18,13 +18,13 @@
                 </a>
                 <ul class="nav nav-pills flex-column mb-auto">
                   <li class="nav-item">
-                    <a href="#" class="nav-link active border-bottom pt-5 pb-3" aria-current="page">
+                    <a href="index.html" class="nav-link active border-bottom pt-5 pb-3" aria-current="page">
                       <img src="img/icono-home.png" alt="BIENVENIDO" class="img-fluid icono-side"/>
                       BIENVENIDO
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="nav-link link-light border-bottom pt-3 pb-3">
+                    <a href="administracion.html" class="nav-link link-light border-bottom pt-3 pb-3">
                       <img src="img/icono-administracion.png" alt="ADMINISTRACIÓN" class="img-fluid icono-side"/>
                       ADMINISTRACIÓN
                     </a>
@@ -48,13 +48,13 @@
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="nav-link link-light border-bottom  pt-3 pb-3">
-                      <img src="img/icono-credito.png" alt="CRÉDITO Y COBRANZA" class="img-fluid icono-side"/>
+                    <a href="#" class="nav-link link-light border-bottom  pt-3">
+                      <img src="img/icono-credito.png" alt="CRÉDITO Y COBRANZA" class="img-fluid icono-side credito"/>
                         CRÉDITO Y <br> COBRANZA
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="nav-link link-light border-bottom  pt-3 pb-3">
+                    <a href="#" class="nav-link link-light border-bottom  pb-3">
                       <img src="img/icono-finanzas.png" alt="FINANZAS" class="img-fluid icono-side"/>
                       FINANZAS
                     </a>
@@ -84,22 +84,25 @@
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="nav-link link-light border-bottom  pt-3 pb-3">
+                    <a href="subir-video.html" class="nav-link link-light border-bottom  pt-3 pb-3">
                         <img src="img/icono-videos.png" alt="VIDEOS" class="img-fluid icono-side"/>
                       VIDEOS
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="nav-link link-light border-bottom  pt-3 pb-3">
+                    <a href="crear-usuario.html" class="nav-link link-light border-bottom  pt-3 pb-3">
                         <img src="img/icono-usuarios.png" alt="USUARIOS" class="img-fluid icono-side"/>
                       USUARIOS
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="nav-link link-light   pt-3 pb-3">
+                    <a href="login.html" class="nav-link link-light   pt-3 pb-3">
                         <img src="img/icono-cerrar-sesion.png" alt="CERRAR SESIÓN" class="img-fluid icono-side"/>
                       CERRAR SESIÓN
                     </a>
+                  </li>
+                  <li class="pb-4">
+                    <img src="img/materialized-blueberry.gif" alt="MATERIALIZED BY Blueberry" class="img-fliuid pt-4 logo-bb ms-4"/>
                   </li>
                 </ul>
             </div>
@@ -121,70 +124,70 @@
                 </div>
             </div>
             <div class="row">
-                <h1 class="pt-3"><b>USUARIOS</b></h1>
+                <h4 class="pt-4 ms-5"><b>USUARIOS</b></h4>
                 <div class="text-end">
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#crearUsuario">CREAR USUARIO</button>
+                    <button type="button" class="btn btn-primary me-5 btn-subir" data-bs-toggle="modal" data-bs-target="#crearUsuario">CREAR USUARIO</button>
                 </div>
             </div>
             <!-- Modal -->
-<div class="modal fade" id="crearUsuario" tabindex="-1" aria-labelledby="crearUsuario" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel"><b class="text-center">CREAR USUARIO</b></h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-            <div class="container">
-                <form>
-                    <div class="mb-3">
-                      <label for="exampleInputEmail1" class="form-label">NOMBRE COMPLETO</label>
-                      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div class="modal fade" id="crearUsuario" tabindex="-1" aria-labelledby="crearUsuario" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel"><b class="text-center">CREAR USUARIO</b></h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="mb-3">
-                      <label for="exampleInputEmail1" class="form-label">CORREO ELECTRÓNICO</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div class="modal-body">
+                        <div class="container">
+                            <form>
+                                <div class="mb-3">
+                                  <label for="exampleInputEmail1" class="form-label">NOMBRE COMPLETO</label>
+                                  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                </div>
+                                <div class="mb-3">
+                                  <label for="exampleInputEmail1" class="form-label">CORREO ELECTRÓNICO</label>
+                                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                </div>
+                                <div class="mb-3">
+                                  <label for="formFile" class="form-label">CONTRASEÑA</label>
+                                  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">TIPO DE USUARIO</label>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>SUPER ADMINISTRADOR</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                                
+                                <div class="text-center pt-3">
+                                    <button type="submit" class="btn btn-primary btn-guardar">GUARDAR</button>
+                                </div>
+                                
+                              </form>
+                        </div>
                     </div>
-                    <div class="mb-3">
-                      <label for="formFile" class="form-label">CONTRASEÑA</label>
-                      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-  
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label">TIPO DE USUARIO</label>
-                        <select class="form-select" aria-label="Default select example">
-                            <option selected>SUPER ADMINISTRADOR</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                        </select>
-                    </div>
-                    
-                    <div class="text-center pt-3">
-                        <button type="submit" class="btn btn-primary">GUARDAR</button>
-                    </div>
-                    
-                  </form>
+                  </div>
+                </div>
             </div>
-        </div>
-      </div>
-    </div>
-  </div>
             <div class="row pt-5 d-flex justify-content-center">
                 <div class="col-12 col-lg-3 col-md-12 col-sm-12">
                     <h6><b>FECHA DE <br> CREACIÓN</b></h6>
                 </div>
                 <div class="col-12 col-lg-2 col-md-12 col-sm-12">
-                    <h6 class="text-center"><b>TIPO DE <br> USUARIO</b></h6>
+                    <h6 class=""><b>TIPO DE <br> USUARIO</b></h6>
                 </div>
                 <div class="col-12 col-lg-2 col-md-12 col-sm-12">
-                    <h6 class="text-center"><b>NOMBRE</b></h6>
+                    <h6 class=""><b>NOMBRE</b></h6>
                 </div>
                 <div class="col-12 col-lg-3 col-md-12 col-sm-12">
-                    <h6 class="text-center"><b>CORREO</b></h6>
+                    <h6 class="ms-4"><b>CORREO</b></h6>
                 </div>
                 <div class="col-12 col-lg-1 col-md-12 col-sm-12">
-                    <h6 class="text-center"><b>ACCIONES</b></h6>
+                    <h6 class=""><b>ACCIONES</b></h6>
                 </div>
             </div>
             <div class="row d-flex justify-content-center pt-2 pb-5">

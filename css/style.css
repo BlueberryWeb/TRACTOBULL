@@ -28,6 +28,14 @@ hr {
     border-color: #fff;
     width: 90px;
 }
+.btn-login a{
+    color: black;
+}
+.btn-login:hover{
+    border-color: white;
+    background-color: white;
+    color: black;
+}
 #logo-side{
     max-width: 150px;
     margin-left: 50px;
@@ -72,7 +80,7 @@ hr {
     max-width: 800px;
 }
 #icono-area{
-    max-width: 100px;
+    max-width: 90px;
     float: left;
     margin-left: 30px;
     margin-right: 20px;
@@ -104,9 +112,41 @@ hr {
     background-color: #225473;
     color: #fff;
 }
-.numero-video{
-    margin-top: 100px;
-}
 .modal-header{
     border: none;
+    text-align: center;
+}
+.num{
+    margin-top: 80px;
+}
+.btn-subir{
+    width: 180px;
+    background-color: #225473;
+    border-color: #225473;
+}
+.btn-subir:hover{
+    background-color: #225473;
+    border-color: #225473;
+}
+.modal-title{
+    margin-left: 170px;
+}
+.form-select{
+    background-color: #225473;
+    color: #fff;
+    border-color: #225473;
+}
+.btn-guardar{
+    background-color: #225473;
+    border-color: #225473;
+}
+.btn-guardar:hover{
+    background-color: #225473;
+    border-color: #225473;
+}
+.logo-bb{
+    max-width: 200px;
+}
+.credito{
+    float: left;
 }
