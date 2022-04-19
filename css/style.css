@@ -74,6 +74,7 @@ hr {
 }
 .texto-bienvenida{
     margin-left: 100px;
+    font-size: 1.2rem;
 }
 #fondo-bienvenida{
     margin-top: 100px;
@@ -149,4 +150,9 @@ hr {
 }
 .credito{
     float: left;
+}
+.peticion{
+    background-color: gray;
+    color: #fff;
+    border-color: gray;
 }

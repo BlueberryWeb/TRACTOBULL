@@ -118,8 +118,61 @@
                         <div class="row">
                             <div class="col-12 col-lg-4 col-md-12 col-sm-12">
                                 <img src="img/logo-bienvenida.png" alt="BIENVENIDO A TRACTOBULL TRAINING PROGRAM" class="img-fluid logo-bienvenida pt-5"/>
-                                <p class="pt-5 texto-bienvenida text-center">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat obcaecati consequatur suscipit cupiditate ullam accusantium voluptate sint incidunt error mollitia porro, perspiciatis ut deleniti, natus corrupti nostrum aliquid culpa. Modi?"
+                                <p class="pt-5 texto-bienvenida text-center">"Bienvenido a la plataforma de capacitación continua de TRACTOBULL. En ella encontrarás
+                                  todas las herramientas y recursos necesarios para que comprendas los diferentes procedimientos que realizamos en la compañía. Si consideras
+                                  que necesitamos integrar alguna capacitación que no esté dentro de la plataforma, haz clic en el siguiente link y realiza tu petición."
                                 </p>
+                                <div class="text-center pt-4 ms-5">
+                                  <button type="button" class="btn btn-primary btn-guardar" data-bs-toggle="modal" data-bs-target="#peticion">Realizar petición</button>
+                                </div>
+                                <!--MODAL-->
+                              <div class="modal fade" id="peticion" tabindex="-1" aria-labelledby="peticion" aria-hidden="true">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="exampleModalLabel"><b class="text-center">REALIZAR PETICIÓN</b></h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="container">
+                                            <form>
+                                              <div class="mb-3">
+                                                <label for="exampleInputEmail1" class="form-label">NOMBRE DEL COLABORADOR</label>
+                                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                              </div>
+                                              <div class="mb-3">
+                                                <label for="exampleInputEmail1" class="form-label">TÍTULO SUGERIDO DE CAPACITACIÓN</label>
+                                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                              </div>
+                                              <div class="mb-3">
+                                                <label for="exampleInputPassword1" class="form-label">ÁREA INVOLUCRADA</label>
+                                                <select class="form-select peticion" aria-label="Default select example">
+                                                    <option selected>SELECCIONA EL ÁREA</option>
+                                                    <option value="administracion">ADMINISTRACIÓN</option>
+                                                    <option value="ventas">VENTAS</option>
+                                                    <option value="rrhhh">RRHHH</option>
+                                                    <option value="calidad">CALIDAD</option>
+                                                    <option value="credito">CRÉDITO Y COBRANZA</option>
+                                                    <option value="finanzas">FINANZAS</option>
+                                                    <option value="operaciones">OPERACIONES</option>
+                                                    <option value="almacen">ALMACÉN</option>
+                                                    <option value="logistica">LOGÍSTICA</option>
+                                                    <option value="produccion">PRODUCCIÓN</option>
+                                                </select>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="exampleInputPassword1" class="form-label">DESCRIBE LA CAPACITACIÓN SOLICITADA</label>
+                                                <textarea class="form-control" placeholder="" id="floatingTextarea"></textarea>
+                                            </div>
+                                            <div class="text-center pt-3">
+                                              <button type="submit" class="btn btn-primary btn-guardar">ENVIAR</button>
+                                            </div>   
+                                          </form>
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
                             </div>
                             <div class="col-12 col-lg-8 col-md-12 col-sm-12">
                                 <img src="img/monita.png" alt="TRACTOBULL" id="fondo-bienvenida"/>
